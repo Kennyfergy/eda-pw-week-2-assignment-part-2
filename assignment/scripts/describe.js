@@ -1,10 +1,9 @@
 // WHAT IS THIS EVEN DOING?
 
-// For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
+// For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening.
 // They are in isolation -- variables in one question do not affect other questions.
 // Describe the code as it would be run, and make sure you give us the console.log's value at the end.
 // (Don't just say 'we console log the variable' -- instead say something like 'we console log 'yes'')
-
 
 // 0. WRITE YOUR DESCRIPTION HERE
 // //EXAMPLE. We make a variable called number and set it to 1 as a number.
@@ -24,11 +23,10 @@ if (number >= 2) {
 
 */
 
-
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+//
+// this would console.log 'How do you do?' because the name is anything other than 'Mary'
+//
 //
 
 //CODE
@@ -45,9 +43,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+//
+// the code is equal to 123, so in line 60, this assigns the secret to be 'super' then we are multiplying the code to get 246
+// without changing the value of the code, we will not output 'super duper'
+//
 //
 
 //CODE
@@ -70,9 +69,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+//
+// the console.log would output 'Welcome to Prime! because the zip is <80000, and the isStudent variable is true, and the age variable is >30
+//
 //
 
 //CODE
@@ -93,11 +92,8 @@ if (isStudent === true && zip > 80000 ) {
 
 */
 
-
-
-
 // REVERSE
-// Now, for questions 4-6, we'll give you a description and some code. 
+// Now, for questions 4-6, we'll give you a description and some code.
 // Some of the code will NOT match the description.
 // Comment above the problem code, and describe a potential solution.
 // Look closely -- things are logically incorrect or missing and wrong in the code!
@@ -106,7 +102,7 @@ if (isStudent === true && zip > 80000 ) {
 // 0. (DESCRIPTION OF CORRECT BEHAVIOR)
 // We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
-// We check if number is greater than or equal to 2. 
+// We check if number is greater than or equal to 2.
 // -- it is, so we console.log 'yes'
 
 //CODE
@@ -123,47 +119,51 @@ if (number >= 2) {
 
 */
 
-
-
-//4. We start with three variables -- colorOne is set to 'blue' and 
-// colorTwo is set to 'red', and mix is set to true. We check if mix is true 
+//4. We start with three variables -- colorOne is set to 'blue' and
+// colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// the instructions asked for colorOne to be 'blue' and colorTwo to be 'red' -will need to fix this first
+//would also recommend using and else if statement for when the mix is false
+//example: if colorOne = 'blue' && colorTwo = 'red'
+//            let mix = true;
+              else mix = false;
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //need to add: colorTwo = 'purple';
 }
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
-// We check if temp is higher than 39 and if time is greater or equal to  4 
+// We check if temp is higher than 39 and if time is greater or equal to  4
 // -- they are so we console.log 'throw away the food!'
 
 /*
 let temp = 40;
+// change const time to a let time, so that the time can actually change
 const time = 4;
-
+// the instructions said to use an and: &&, not an or: ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
-// We check if age is greater than or equal to minAge 
+// We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
 /*
 let age = 21;
 const minAge = 21;
-
+// change to: if(minAge >= age)
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
-
